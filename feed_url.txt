@@ -1,0 +1,4 @@
+[CENT-OS],http://rss.gmane.org/messages/complete/gmane.linux.centos.announce
+[RED-HAT],https://rhn.redhat.com/rpc/recent-errata.pxt
+[KR-CERT],http://www.krcert.or.kr/kor/rss/boardRSS.jsp?p_bulletin_sequence=133
+[SecurityFocus],http://www.securityfocus.com/rss/vulnerabilities.xml
