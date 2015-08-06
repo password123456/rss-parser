@@ -89,7 +89,6 @@ def do_feed(_URL,_FEED_NAME):
                 with open(_FEEDS_DB, mode) as f:
                     for _FEED_TITLE in _GET_FEED:
                         if not post_is_in_db(_FEED_TITLE):
-                            #f.write(_FEED_SAVE + " | " + str(_CURRENT_TIMESTAMP) + "\n")
                             f.write(_FEED_TITLE + " | " + str(_CURRENT_TIMESTAMP) + "\n")
                             print _FEED_TITLE_LINK
                             ## do your stuff here
