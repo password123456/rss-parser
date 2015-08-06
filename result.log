@@ -1,0 +1,87 @@
+[root@centos64 ]# ./rss_parser.py
+[CENT-OS] CEBA-2015:1561 CentOS 7 python-blivet BugFixUpdate
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9288
+[CENT-OS] CEBA-2015:1558 CentOS 7 NetworkManager BugFixUpdate
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9287
+[CENT-OS] CEBA-2015:1560 CentOS 7 irqbalance BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9286
+[CENT-OS] CEBA-2015:1559  CentOS 7 mesa BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9285
+[CENT-OS] CEBA-2015:1556  CentOS 7 dnsmasq BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9284
+[CENT-OS] CEBA-2015:1555  CentOS 7 sssd BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9283
+[CENT-OS] CEBA-2015:1535  CentOS 7 numactl BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9282
+[CENT-OS] CEBA-2015:1537 CentOS 7 util-linux BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9281
+[CENT-OS] CEBA-2015:1554 CentOS 7 389-ds-base BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9280
+[CENT-OS] CEBA-2015:1533  CentOS 7 nss BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9279
+[CENT-OS] CEBA-2015:1533 CentOS 7 nss-softokn BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9278
+[CENT-OS] CEBA-2015:1533  CentOS 7 nss-util BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9277
+[CENT-OS] CEBA-2015:1553  CentOS 7 ksh BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9276
+[CENT-OS] CEBA-2015:1552 CentOS 7 selinux-policy BugFixUpdate
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9275
+[CENT-OS] CEBA-2015:1547 CentOS 7 maven-dependency-tree FASTTRACK BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9274
+[CENT-OS] CEBA-2015:1530  CentOS 7 dracut BugFix Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9273
+[CENT-OS] CEBA-2015:1542 CentOS 7 unixODBC FASTTRACK BugFixUpdate
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9272
+[CENT-OS] Release for CentOS 7 on AArch64
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9271
+[CENT-OS] Announcing the CentOS Linux AltArch SIG
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9270
+[CENT-OS] CEBA-2015:1521 CentOS 7 less FASTTRACK BugFixUpdate
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9269
+[CENT-OS] CESA-2015:1526 Important CentOS 5java-1.6.0-openjdk Security Update
+ ==> http://permalink.gmane.org/gmane.linux.centos.announce/9268
+[RED-HAT] RHBA-2015:1531-1: kubernetes bug fix and enhancement update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1531.html
+[RED-HAT] RHBA-2015:1532-1: python-urllib3 bug fix update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1532.html
+[RED-HAT] RHBA-2015:1533-1: nss-util, nss-softokn, and nss bug fix and enhancement update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1533.html
+[RED-HAT] RHBA-2015:1535-1: numactl bug fix update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1535.html
+[RED-HAT] RHBA-2015:1536-1: docker bug fix and enhancement update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1536.html
+[RED-HAT] RHBA-2015:1537-1: util-linux bug fix update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1537.html
+[RED-HAT] RHBA-2015:1547-1: maven-dependency-tree bug fix update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1547.html
+[RED-HAT] RHBA-2015:1552-1: selinux-policy bug fix update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1552.html
+[RED-HAT] RHBA-2015:1553-1: ksh bug fix update
+ ==> http://rhn.redhat.com/errata/RHBA-2015-1553.html
+[KR-CERT] WordPress 긴급 보안 업데이트
+ ==> http://www.krcert.or.kr/kor/data/secNoticeView.jsp?p_bulletin_writing_sequence=23243
+[KR-CERT] Cisco ASR 라우터 보안 업데이트 권고
+ ==> http://www.krcert.or.kr/kor/data/secNoticeView.jsp?p_bulletin_writing_sequence=23244
+[KR-CERT] 아래한글 임의코드 실행 취약점 보안 업데이트 권고
+ ==> http://www.krcert.or.kr/kor/data/secNoticeView.jsp?p_bulletin_writing_sequence=23223
+[KR-CERT] BIND DNS 신규취약점 보안업데이트 권고
+ ==> http://www.krcert.or.kr/kor/data/secNoticeView.jsp?p_bulletin_writing_sequence=23203
+[KR-CERT] 안드로이드 stagefright 미디어 라이브러리 취약점 주의 권고
+ ==> http://www.krcert.or.kr/kor/data/secNoticeView.jsp?p_bulletin_writing_sequence=23184
+[SecurityFocus] Vuln: redcarpet CVE-2015-5147 Stack Buffer Overflow Vulnerability
+ ==> http://www.securityfocus.com/bid/75508
+[SecurityFocus] Vuln: Novius OS 'tab' parameter Local File Include Vulnerability
+ ==> http://www.securityfocus.com/bid/75533
+[SecurityFocus] Vuln: Oracle Java SE CVE-2015-0488 Remote Security Vulnerability
+ ==> http://www.securityfocus.com/bid/74111
+[SecurityFocus] Vuln: Debian OpenJDK CVE-2014-8873 Remote Code Execution Vulnerability
+ ==> http://www.securityfocus.com/bid/76019
+[SecurityFocus] Bugtraq: [security bulletin] HPSBUX03388 SSRT102180 rev.1 - HP-UX running OpenSSL, Remote Disclosure of Information
+ ==> http://www.securityfocus.com/archive/1/536142
+[SecurityFocus] Bugtraq: Re: [FD] Mozilla extensions: a security nightmare
+ ==> http://www.securityfocus.com/archive/1/536141
+[SecurityFocus] Bugtraq: SEC Consult SA-20150805-0 :: Websense Content Gateway Stack Buffer Overflow in handle_debug_network
+ ==> http://www.securityfocus.com/archive/1/536138
+[SecurityFocus] More rss feeds from SecurityFocus
+ ==> http://www.securityfocus.com/rss/index.shtml
