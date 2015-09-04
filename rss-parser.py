@@ -9,7 +9,6 @@
 import os,sys,time,re
 import feedparser
 import urllib,urllib2
-import codecs
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
