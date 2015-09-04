@@ -77,25 +77,28 @@ def do_feed(_URL,_FEED_NAME):
 
     for post in feed.entries:
         _FEED_TITLE = post.title
-        _FEED_TITLE_LINK = _FEED_NAME + ' ' + post.title + '\n ==> ' + post.link
+        _KEYWORD_MATCH = re.findall(_FEED_REGEX, _FEED_TITLE)
 
-        if post_is_in_db_with_old_timestamp(_FEED_TITLE):
-            _SKIP_FEED.append(_FEED_TITLE)
-        else:
-            _GET_FEED.append(_FEED_TITLE)
+        if _KEYWORD_MATCH:
+            _FEED_TITLE_LINK = _FEED_NAME + ' ' + post.title + '\n ==> ' + post.link
 
-            try:
-                mode = 'a' if os.path.exists(_FEEDS_DB) else open(_FEEDS_DB, 'w')
-                with open(_FEEDS_DB, mode) as f:
-                    for _FEED_TITLE in _GET_FEED:
-                        if not post_is_in_db(_FEED_TITLE):
-                            f.write(_FEED_TITLE + " | " + str(_CURRENT_TIMESTAMP) + "\n")
-                            print _FEED_TITLE_LINK
-                            ## do your stuff here
-                            ## Like Email / SMS Forwaring
-            finally:
-                f.close()
+            if post_is_in_db_with_old_timestamp(_FEED_TITLE):
+                _SKIP_FEED.append(_FEED_TITLE)
+            else:
+                _GET_FEED.append(_FEED_TITLE)
 
+                try:
+                    mode = 'a' if os.path.exists(_FEEDS_DB) else open(_FEEDS_DB, 'w')
+                    with open(_FEEDS_DB, mode) as f:
+                        for _FEED_TITLE in _GET_FEED:
+                            if not post_is_in_db(_FEED_TITLE):
+                                
+                                f.write(_FEED_TITLE + " | " + str(_CURRENT_TIMESTAMP) + "\n")
+                                print _FEED_TITLE_LINK
+                                ## do your stuff here
+                                ## Like Email / SMS Forwaring
+                finally:
+                    f.close()
 
 def main():
     do_load_feed_url()
